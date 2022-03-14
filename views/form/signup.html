@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Form Styling</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../../css/signup.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div id="container">
+    <div class="form-wrap">
+      <h1>Sign Up</h1>
+      <p>Es gratis y solo toma unos minutos</p>
+      <!-- agregar el archivo que manejara la informacion enviada-->
+      <form action="" method="post" id="formulario" name="formulario">
+        <div class="form-group">
+          <label for="first-name">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+          <span id="mensaje1" class="errores">Nombre no valido</sapnm>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Apellido</label>
+          <input type="text" name="apellido" id="apellido" />
+          <span id="mensaje2" class="errores">Apellido no valido</span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <span id="mensaje3" class="errores">Formato no valido</span>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <span id="mensaje4" class="errores">No puede quedar vacio</span>
+        </div>
+        <div class="form-group">
+          <label for="password2">Confirmar Password</label>
+          <input type="password" name="pasword2" id="password2" />
+          <span id="mensaje5" class="errores">No puede quedar vacio</span>
+          <span id="mensaje6" class="errores">Las contraseñas no coiciden</span>
+        </div>
+        <button id="enviar" type="submit" class="btn">Sign Up</button>
+        <p class="bottom-text">
+          Al clickear el boton Sign Up, estaás deacuerdo a nuestro
+          <a href="#">Terminos y condiciones</a> and
+          <a href="#">Politica de privacidad</a>
+        </p>
+      </form>
+    </div>
+    <footer>
+      <p>Ya tienes cuenta? <a href="#">Ingresa acá</a></p>
+    </footer>
+  </div>
+
+  <script src="../../lib/validar_form.js"></script>
+</body>
+
+</html>
