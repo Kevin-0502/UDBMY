@@ -37,11 +37,11 @@ Antes de probar el sistema asegurarse de tener  el paquete de software [XAMPP](h
     
 ## Autores 👨👨👨👨👨
 
-- [Kevin Miguel Jimenez Hernandez JH200303](https://github.com/Kevin-0502)
-- [Oscar Anibal Carranza Valiente CV181237](https://github.com/Nacha503/)
-- [Esteban Alexander Gamez Perez GP080240](https://github.com/EAGPsting/)
-- [Cristian Enrique Pineda Muñoz PM190654](https://github.com/Nacha503/)
-- [Carlos Noe Molina Gomez MG200077](https://github.com/24carlos)
+- [Kevin Miguel Jimenez Hernandez JH200303](https://github.com/Kevin-0502) GT03
+- [Oscar Anibal Carranza Valiente CV181237](https://github.com/Nacha503/) GT03
+- [Esteban Alexander Gamez Perez GP080240](https://github.com/EAGPsting/) GT03
+- [Cristian Enrique Pineda Muñoz PM190654](https://github.com/Nacha503/) GT03
+- [Carlos Noe Molina Gomez MG200077](https://github.com/24carlos) GT03
 
 
 
